@@ -1,0 +1,68 @@
+{
+  "doctors": [
+    {
+      "id": "D001",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Endodontics",
+      "clinic": "RootCare Dental Center",
+      "experience_years": 12,
+      "available_days": ["Monday", "Tuesday", "Thursday", "Saturday"]
+    },
+    {
+      "id": "D002",
+      "name": "Dr. Arjun Mehta",
+      "specialty": "Endodontics",
+      "clinic": "PrecisionDent Clinic",
+      "experience_years": 8,
+      "available_days": ["Wednesday", "Thursday", "Friday", "Saturday"]
+    },
+    {
+      "id": "D003",
+      "name": "Dr. Sneha Kapoor",
+      "specialty": "Oral Surgery",
+      "clinic": "MaxFace Surgical Dental",
+      "experience_years": 15,
+      "available_days": ["Monday", "Wednesday", "Friday"]
+    },
+    {
+      "id": "D004",
+      "name": "Dr. Rahul Verma",
+      "specialty": "Oral Surgery",
+      "clinic": "ClearPath Oral Surgery",
+      "experience_years": 10,
+      "available_days": ["Tuesday", "Thursday", "Saturday"]
+    },
+    {
+      "id": "D005",
+      "name": "Dr. Kavya Nair",
+      "specialty": "Orthodontics",
+      "clinic": "AlignSmile Orthodontic Studio",
+      "experience_years": 9,
+      "available_days": ["Monday", "Tuesday", "Friday", "Saturday"]
+    },
+    {
+      "id": "D006",
+      "name": "Dr. Aditya Bose",
+      "specialty": "Orthodontics",
+      "clinic": "SmileCraft Ortho",
+      "experience_years": 7,
+      "available_days": ["Wednesday", "Thursday", "Saturday"]
+    },
+    {
+      "id": "D007",
+      "name": "Dr. Meera Pillai",
+      "specialty": "Periodontics",
+      "clinic": "GumGuard Periodontal Clinic",
+      "experience_years": 11,
+      "available_days": ["Monday", "Thursday", "Friday"]
+    },
+    {
+      "id": "D008",
+      "name": "Dr. Rohan Das",
+      "specialty": "Restorative Dentistry",
+      "clinic": "RestoreDent Studio",
+      "experience_years": 13,
+      "available_days": ["Tuesday", "Wednesday", "Friday", "Saturday"]
+    }
+  ]
+}

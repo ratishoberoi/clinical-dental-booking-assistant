@@ -1,0 +1,39 @@
+{
+  "slots": [
+    {"slot_id": "S001", "doctor_id": "D001", "day": "Monday", "time": "10:00 AM", "booked": false},
+    {"slot_id": "S002", "doctor_id": "D001", "day": "Tuesday", "time": "6:30 PM", "booked": false},
+    {"slot_id": "S003", "doctor_id": "D001", "day": "Thursday", "time": "11:00 AM", "booked": false},
+    {"slot_id": "S004", "doctor_id": "D001", "day": "Saturday", "time": "10:00 AM", "booked": false},
+
+    {"slot_id": "S005", "doctor_id": "D002", "day": "Wednesday", "time": "9:00 AM", "booked": false},
+    {"slot_id": "S006", "doctor_id": "D002", "day": "Thursday", "time": "6:00 PM", "booked": false},
+    {"slot_id": "S007", "doctor_id": "D002", "day": "Friday", "time": "5:30 PM", "booked": false},
+    {"slot_id": "S008", "doctor_id": "D002", "day": "Saturday", "time": "11:30 AM", "booked": false},
+
+    {"slot_id": "S009", "doctor_id": "D003", "day": "Monday", "time": "8:00 AM", "booked": false},
+    {"slot_id": "S010", "doctor_id": "D003", "day": "Wednesday", "time": "2:00 PM", "booked": false},
+    {"slot_id": "S011", "doctor_id": "D003", "day": "Friday", "time": "4:00 PM", "booked": false},
+
+    {"slot_id": "S012", "doctor_id": "D004", "day": "Tuesday", "time": "7:00 PM", "booked": false},
+    {"slot_id": "S013", "doctor_id": "D004", "day": "Thursday", "time": "6:30 PM", "booked": false},
+    {"slot_id": "S014", "doctor_id": "D004", "day": "Saturday", "time": "9:30 AM", "booked": false},
+
+    {"slot_id": "S015", "doctor_id": "D005", "day": "Monday", "time": "11:00 AM", "booked": false},
+    {"slot_id": "S016", "doctor_id": "D005", "day": "Tuesday", "time": "6:00 PM", "booked": false},
+    {"slot_id": "S017", "doctor_id": "D005", "day": "Friday", "time": "5:00 PM", "booked": false},
+    {"slot_id": "S018", "doctor_id": "D005", "day": "Saturday", "time": "10:30 AM", "booked": false},
+
+    {"slot_id": "S019", "doctor_id": "D006", "day": "Wednesday", "time": "3:00 PM", "booked": false},
+    {"slot_id": "S020", "doctor_id": "D006", "day": "Thursday", "time": "7:00 PM", "booked": false},
+    {"slot_id": "S021", "doctor_id": "D006", "day": "Saturday", "time": "9:00 AM", "booked": false},
+
+    {"slot_id": "S022", "doctor_id": "D007", "day": "Monday", "time": "9:30 AM", "booked": false},
+    {"slot_id": "S023", "doctor_id": "D007", "day": "Thursday", "time": "5:30 PM", "booked": false},
+    {"slot_id": "S024", "doctor_id": "D007", "day": "Friday", "time": "6:00 PM", "booked": false},
+
+    {"slot_id": "S025", "doctor_id": "D008", "day": "Tuesday", "time": "10:00 AM", "booked": false},
+    {"slot_id": "S026", "doctor_id": "D008", "day": "Wednesday", "time": "6:30 PM", "booked": false},
+    {"slot_id": "S027", "doctor_id": "D008", "day": "Friday", "time": "3:30 PM", "booked": false},
+    {"slot_id": "S028", "doctor_id": "D008", "day": "Saturday", "time": "11:00 AM", "booked": false}
+  ]
+}
