@@ -140,10 +140,6 @@ def build_doctor_slot_display(specialties: List[str], time_preference: str) -> s
 
         output_lines.append("---")
 
-    # If preferred days had zero DB coverage, tell the user honestly
-    if preference["preferred_days"] == [] and time_preference.strip():
-        days_note = ", ".join(actual_days) if actual_days else "None currently"
-        output_lines.append(f"📅 *Note: Days with actual availability: {days_note}*")
 
     return "\n".join(output_lines)
 
@@ -196,7 +192,9 @@ def find_doctor_by_name(name_fragment: str) -> Optional[Dict]:
             return doctor
 
     return None
-
+def get_all_doctors() -> List[Dict]:
+    """Return all doctors for LLM context."""
+    return DOCTORS_DB
 
 def find_slot_by_day_time(doctor_id: str, day_or_time: str) -> Optional[Dict]:
     """Find slot by flexible day/time — handles Wed, wednesday, 9am, 9:00, saturday etc."""
